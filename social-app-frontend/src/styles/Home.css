@@ -1,0 +1,53 @@
+.home-page {
+     min-height: 100vh;
+     background-color: #f5f5f5;
+   }
+   
+   .content {
+     max-width: 800px;
+     margin: 20px auto;
+     padding: 20px;
+   }
+   
+   h2 {
+     margin-bottom: 20px;
+     color: #333;
+   }
+   
+   .posts-container {
+     display: flex;
+     flex-direction: column;
+     gap: 15px;
+   }
+   
+   .post-card {
+     background-color: white;
+     border-radius: 8px;
+     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+     padding: 15px;
+     transition: transform 0.2s;
+   }
+   
+   .post-card:hover {
+     transform: translateY(-3px);
+   }
+   
+   .post-header {
+     display: flex;
+     justify-content: space-between;
+     margin-bottom: 10px;
+   }
+   
+   .username {
+     font-weight: bold;
+     color: #4c84ff;
+   }
+   
+   .date {
+     color: #888;
+     font-size: 0.9rem;
+   }
+   
+   .post-content {
+     line-height: 1.5;
+   }
